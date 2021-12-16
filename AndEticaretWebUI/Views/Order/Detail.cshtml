@@ -1,0 +1,69 @@
+﻿@model AndEticaretCoreModel.Entity.Order
+@{
+    ViewBag.Title = "Dipariş Detayı";
+}
+
+<h2>@Model.Id Nolu Siparişinizin durumu: @Model.Status.Name</h2>
+<hr />
+
+<b>Banka Bilgileri</b>
+<table>
+    <tr>
+        <td>Banka: </td>
+        <td>Banka İsmi</td>
+    </tr>
+    <tr>
+        <td>Iban: </td>
+        <td>TR xxxxxxxxxxxx</td>
+    </tr>
+    <tr>
+        <td>Alıcı Adı: </td>
+        <td> Firma.Bilgileri</td>
+    </tr>
+</table>
+@{
+    if (Model.StatusID == 1)
+    {
+        <a href="/Order/Pay?id=@Model.Id" class="btn btn-success">Ödeme Yaptım</a>
+    }
+}
+<hr />
+
+<b>Sipariş Bilgileri</b>
+<table>
+    <tr>
+        <td>Toplam:</td>
+        <td>@Model.TotalPrice.ToString("##,## ₺")</td>
+    </tr>
+    <tr>
+        <td>Ürünler Toplamı:</td>
+        <td>@Model.TotalProductPrice.ToString("##,## ₺")</td>
+    </tr>
+    <tr>
+        <td>İndirim Toplamı:</td>
+        <td>@Model.TotalDiscount.ToString("##,## ₺")</td>
+    </tr>
+    <tr>
+        <td>Vergi Toplamı:</td>
+        <td>@Model.TotalTaxPrice.ToString("##,## ₺")</td>
+    </tr>
+</table>
+<hr />
+
+<b>Ürün Bilgileri</b>
+<table>
+    <tr>
+        <th>Ürün</th>
+        <th>Adet</th>
+    </tr>
+    @{
+        foreach (var item in Model.OrderProducts)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+            </tr>
+        }
+    }
+
+</table>

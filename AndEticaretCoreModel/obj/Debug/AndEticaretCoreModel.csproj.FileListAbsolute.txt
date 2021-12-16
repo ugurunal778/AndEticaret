@@ -1,0 +1,12 @@
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\AndEticaretCoreModel.dll.config
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\AndEticaretCoreModel.dll
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\AndEticaretCoreModel.pdb
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\EntityFramework.dll
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\EntityFramework.xml
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\obj\Debug\AndEticaretCoreModel.csproj.AssemblyReference.cache
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\obj\Debug\AndEticaretCoreModel.csproj.CoreCompileInputs.cache
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\obj\Debug\AndEticaretCoreModel.csproj.CopyComplete
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\obj\Debug\AndEticaretCoreModel.dll
+C:\Users\ugur7\source\repos\AndEticaret\AndEticaretCoreModel\obj\Debug\AndEticaretCoreModel.pdb

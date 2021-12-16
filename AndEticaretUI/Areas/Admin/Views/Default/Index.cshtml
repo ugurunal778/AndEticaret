@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+    var user = Session["AdminLoginUser"] as AndEticaretCoreModel.Entity.User;
+}
+
+<h2>Sayın @user.Name @user.LastName Admin paneline hoşgeldiniz</h2>
+<ul>
+    <li>
+        <a href="/Admin/Users">Üyeler Yönetimi</a>
+    </li>
+    <li>
+        <a href="/Admin/Products">Ürün Yönetimi</a>
+    </li>
+</ul>
+
